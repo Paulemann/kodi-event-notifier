@@ -1,0 +1,36 @@
+[KODI JSON-RPC]
+hostname: 192.168.178.12, 192.168.178.13
+port: 8080
+username: kodi
+password: password
+
+[Login]
+username: dahua
+password: password
+
+[Event]
+port: 4465
+event: Alarm Event
+eventid: Motion Detection
+device: Alarm Device Name
+deviceid: DOOR, GARDEN
+description: Frontdoor, Backyard
+streamid: 1, 2
+
+[Mail Account]
+smtpserver: mail.kenobi.con:567
+realname: Obi-Wan Kenobi
+username: obi-wan@kenobi.com
+password: password
+
+[Alert Mail]
+text: Motion detected at {}\n\n
+attach: /pics
+timeformat: %d.%m.%Y %H:%M:%S
+
+[Alert Notification]
+title: Motion detected
+text: {}
+
+[Local]
+command:
